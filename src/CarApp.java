@@ -37,5 +37,4 @@ public class CarApp {
 		
 		scnr.close();
 	}
-
 }

@@ -49,7 +49,7 @@ public class Car {
 	}
 	
 	public String formatPrice() {
-		DecimalFormat format = new DecimalFormat("$0.00");
+		DecimalFormat format = new DecimalFormat("$0,000.00");
 		return format.format(price);
 	}
 	
